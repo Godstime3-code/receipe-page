@@ -1,0 +1,149 @@
+@font-face {
+
+    font-family: mySecondFont;
+    src: url(YoungSerif-Regular.ttf);
+  }
+@font-face {
+
+    font-family: myFirstFont;
+    src: url(outfit/Outfit-VariableFont_wght.ttf);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+    line-height: 32px;
+    font-family: mySecondFont;
+ }
+
+.container{
+    max-width: 1440px;
+    height: 100%;
+    margin: 1rem auto 0;
+    background-color: hsl(330, 100%, 98%);
+    padding:2rem;
+    border-radius: 25px;
+}
+
+.receipe{
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+.receipe-text h1{
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
+
+.recipe-time{
+  margin: 2rem 2rem;
+}
+
+
+.recipe-time ul li{
+  margin-left: 2rem;
+  list-style-position: outside;
+}
+
+.recipe-time p{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: hsl(332, 51%, 32%);
+  font-family: myFirstFont;
+  margin-bottom: 1rem;
+}
+
+
+section{
+  margin: 2.5rem 0
+}
+
+section h2{
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 1.2rem;
+}
+
+table{
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+ 
+}
+
+tr{
+  padding: 2rem
+}
+
+
+@media screen , (min-width: 320px) and (max-width:540) {
+  .container{
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto 0;
+    background-color: hsl(330, 100%, 98%);
+    padding:2rem;
+    border-radius: 0;
+}
+
+.receipe{
+  max-width: 100%;
+  height: auto;
+  border-radius:0
+}
+
+.receipe-text h1{
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  line-height: 42px;
+}
+
+.recipe-time{
+  margin: 2rem 2rem;
+}
+
+
+.recipe-time ul li{
+  margin-left: 1rem;
+  list-style-position: outside;
+}
+
+.recipe-time p{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: hsl(332, 51%, 32%);
+  font-family: myFirstFont;
+  margin-bottom: 1rem;
+}
+
+
+section{
+  margin: 2.5rem 0
+}
+
+section h2{
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 1.2rem;
+}
+
+table{
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+ 
+}
+
+tr{
+  padding: 2rem
+}
+
+
+}
